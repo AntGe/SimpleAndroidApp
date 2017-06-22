@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/row_book_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/row_book_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLength="20"
+            android:maxLines="2"
+            android:textSize="20sp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
